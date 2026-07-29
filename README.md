@@ -1,32 +1,41 @@
-# by running npm run devStart you start the server(server.js)
-# by running npm run devStart1 you start the server(s.js)
+###### Express JS Server
 
-on server.js you can do http methods 
+#### installing node dependencies
 
--get  
-*localhost:3000 ==> to get home page
-*localhost:3000/users ==> to get users
-*localhost:3000/users/byId/:id ==> to get users by their id
+npm install
 
--post
-*localhost:3000/users and put name in the key and put the username ==> to post a new user
+#### starting the server
 
--put
-*localhost:3000/users/:id and put name in the key and put the updated username==> to update the username by using id
+npm start
 
--delete
-*localhost:3000/users/:id ==> to delete users using  id
+#### apis /use postman
 
-## using postman
+### GET
 
+## http://localhost:3000
 
-on s.js you can do http methods 
+## http://localhost:3000/data
 
--get
-*localhost:4000/post ==> to get users
-*localhost:4000/post/byId/:id ==> to get users by their id
+## http://localhost:3000/data/(put is here)
 
--post
-*localhost:4000/post/new ==> to get a page where you submit your name there the post method will create a new post for user
+### POST
 
-## using the browser 
+## http://localhost:3000/data
+
+# json data({"id","(id here)","name","(name here)","lname":"(lname here")})
+
+### PATCH
+
+## http://localhost:3000/(put is here)
+
+# json data({"name":"(name here")})
+
+### PUT
+
+## http://localhost:3000/(put is here)
+
+# json data({"name","(name here)","lname":"(lname here")})
+
+### DELETE
+
+## http://localhost:3000/(put is here)

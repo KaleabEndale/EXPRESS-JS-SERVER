@@ -16,7 +16,7 @@ npm start
 
 ## http://localhost:3000/data
 
-## http://localhost:3000/data/(put is here)
+## http://localhost:3000/data/(put id here)
 
 ### POST
 
@@ -26,16 +26,16 @@ npm start
 
 ### PATCH
 
-## http://localhost:3000/(put is here)
+## http://localhost:3000/(put id here)
 
 # json data({"name":"(name here")})
 
 ### PUT
 
-## http://localhost:3000/(put is here)
+## http://localhost:3000/(put id here)
 
 # json data({"name","(name here)","lname":"(lname here")})
 
 ### DELETE
 
-## http://localhost:3000/(put is here)
+## http://localhost:3000/(put id here)
